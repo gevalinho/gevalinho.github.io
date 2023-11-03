@@ -22,10 +22,10 @@ try {
 
 	// Server settings
 	$mail->isSMTP(); // Send using SMTP
-	$mail->Host = 'smtp.***.com'; // Set the SMTP server to send through
+	$mail->Host = 'profragranceng.com'; // Set the SMTP server to send through
 	$mail->SMTPAuth = true; // Enable SMTP authentication
-	$mail->Username = '***'; // SMTP username
-	$mail->Password = '***'; // SMTP password
+	$mail->Username = 'gevaevalegbe@profragranceng.com'; // SMTP username
+	$mail->Password = '+jVa.Eu]lIT@'; // SMTP password
 	$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 	$mail->Port = 465; // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
